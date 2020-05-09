@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Calendar Generator</h1>
+    <form id="Form">
+        <label id="label" for="input">Month: </label>
+        <input type="number" class="form-control" id="input" placeholder="set Month: 1-12" name="inp" max="12" min="1"/>
+        <label id="label" for="input">Year: </label>
+        <input type="number" class="form-control" id="input2" placeholder="set Year" name="inp" />
+        <div class="feedback"></div>
+        <label id="label" for="input">Day: </label>
+        <input type="number" class="form-control" id="input3" placeholder="set Day: 1-31" name="inp" />
+        <div class="feedback"></div>
+    </form>
+    <div class="button" id="button">
+        <button class="btn btn-primary"  type="submit" id="process">Generate</button>
+    </div> 
+
+    <table>
+        <tdead>
+            <tr id="tr"> 
+                <th  class="year" id="year" colspan="5"></th>
+                <th  class="buttons" colspan="2"><button type="button" class="btn btn-light" id="button2">←</button>
+                    <button type="button" class="btn btn-light" id="button3">→</button>
+                </th>
+            </tr>
+            <tr>
+                <th>Mo</th>
+                <th>Tu</th>
+                <th>We</th>
+                <th>Th</th>
+                <th>Fr</th>
+                <th>Sa</th>
+                <th>Su</th>
+            </tr>
+        </tdead>
+        <tbody id="tbody">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr id="tr6">
+            </tr>   
+        </tbody>
+           
+    </table>
+</body>
+</html>

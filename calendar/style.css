@@ -1,0 +1,53 @@
+h1,form{
+    margin-left: 35%;
+}
+table{
+    padding-left: 700px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 35%;
+
+}
+th,tr{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+td{
+    border: 1px solid black;
+    border-style: dotted;
+}
+.year{
+    font-size: x-large;
+    color: white;
+}
+tr:nth-child(even) {
+    background: #ecebeb;
+  }
+#input, #input2, #input3{
+    width: 200px;
+}
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 35%;
+}
+#tr > th{
+    border: none;
+    background-color: #066ccc;
+}   
+#currentday{
+    background-color: #eb3c4a;
+}
+td:hover{
+    background-color: lightblue;
+    transform: scale(0.8);
+}
+#holidayday{
+    background-color: #f5dd57;
+    font-size: xx-small;
+    
+}
+#holidayday:hover{
+    transform: scale(2.8);
+}
